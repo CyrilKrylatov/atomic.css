@@ -1,0 +1,273 @@
+/* ----------------------------------------------------------
+   Text overflow + ellipsis
+   ------------------------------------------------------- */
+
+.dib {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nd {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nd.nd--100 {
+    max-width: 100%;
+}
+
+.minWidth0 {
+    min-width: 0;
+}
+
+.minHeight0 {
+    min-height: 0;
+}
+
+.maxHeight100p {
+    max-height: 100%;
+}
+
+/* ----------------------------------------------------------
+   Flexbox utilities
+   ------------------------------------------------------- */
+
+.displayFlex {
+    display: flex;
+}
+
+.displayInlineFlex {
+    display: inline-flex;
+}
+
+.alignItemsCenter {
+    align-items: center;
+}
+
+.alignItemsFlexEnd {
+    align-items: flex-end;
+}
+
+.alignItemsFlexStart {
+    align-items: flex-start;
+}
+
+.flexDirectionColumn {
+    flex-direction: column;
+}
+
+.justifyContentCenter {
+    justify-content: center;
+}
+
+.justifyContentFlexStart {
+    justify-content: flex-start;
+}
+
+.justifyContentFlexEnd {
+    justify-content: flex-end;
+}
+
+.justifyContentSpaceBetween {
+    justify-content: space-between;
+}
+
+.flexWrapWrap {
+    flex-wrap: wrap;
+}
+
+.alignSelfStretch {
+    align-self: stretch;
+}
+
+.alignSelfCenter {
+    align-self: center;
+}
+
+.alignSelfFlexStart {
+    align-self: flex-start;
+}
+
+.alignSelfFlexEnd {
+    align-self: flex-end;
+}
+
+.flexGrow1 {
+    flex-grow: 1;
+}
+
+.marginTopAuto {
+    margin-top: auto;
+}
+
+.marginLeftAuto {
+    margin-left: auto;
+}
+
+.flexShrink0 {
+    flex-shrink: 0;
+}
+
+/* ----------------------------------------------------------
+   Grid utilities
+   ------------------------------------------------------- */
+
+.displayGrid {
+    display: grid;
+}
+
+.gridTemplateColumnsRepeat21fr {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.gridTemplateColumnsRepeat41fr {
+    grid-template-columns: repeat(4,1fr);
+}
+
+.gridGap1px {
+    grid-gap: 1px;
+}
+
+.gridGap15px {
+    grid-gap: 15px;
+}
+
+.alignSelfEnd {
+    align-self: end;
+}
+
+.alignItemsStart {
+    align-items: start;
+}
+
+.justifyItemsEnd {
+    justify-items: end;
+}
+
+.justifySelfEnd {
+    justify-self: end;
+}
+
+/* ----------------------------------------------------------
+   Others
+   ------------------------------------------------------- */
+
+.positionRelative {
+    position: relative;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.displayInlineBlock {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.width100p {
+    width: 100%;
+}
+
+.height100p {
+    height: 100%;
+}
+
+.heightAuto {
+    height: auto;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.textAlignLeft {
+    text-align: left !important;
+}
+
+.marginBottom15 {
+    margin-bottom: 15px !important;
+}
+
+.marginTop10 {
+    margin-top: 10px !important;
+}
+
+.marginTop15 {
+    margin-top: 15px !important;
+}
+
+.marginBottom0 {
+    margin-bottom: 0 !important;
+}
+
+.marginLeft15 {
+    margin-left: 15px !important;
+}
+
+.overflowXScroll,
+.overflowYScroll {
+    overflow: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.overflowXScroll {
+    overflow-x: auto;
+}
+
+.overflowYScroll {
+    overflow-y: auto;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.zIndex1 {
+    z-index: 1;
+}
+
+.zIndex10 {
+    z-index: 10;
+}
+
+.maxWidth100p {
+    max-width: 100%;
+}
+
+.fontWeight700 {
+    font-weight: 700 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fontSize0 {
+    font-size: 0;
+}
+
+.fontSize14px {
+    font-size: 14px;
+}
+
+.borderRadius50p {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.objectFitCover {
+    object-fit: cover;
+}
+
+.textTransformUpperCase {
+    text-transform: uppercase;
+}
+
+.cursorPointer {
+    cursor: pointer !important;
+}
