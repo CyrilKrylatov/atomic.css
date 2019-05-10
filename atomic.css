@@ -109,6 +109,17 @@
     flex-shrink: 0;
 }
 
+/* Overflow ellipsis
+   ----------------------- */
+
+/* .displayFlex > .minWidth0 > .flexTextOverflowEllipsis */
+
+.flexTextOverflowEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 /* ----------------------------------------------------------
    Grid utilities
    ------------------------------------------------------- */
