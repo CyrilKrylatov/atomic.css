@@ -221,18 +221,18 @@
     margin-left: 15px !important;
 }
 
-.overflowXScroll,
-.overflowYScroll {
+.overflowXAuto,
+.overflowYAuto {
     overflow: hidden;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
 }
 
-.overflowXScroll {
+.overflowXAuto {
     overflow-x: auto;
 }
 
-.overflowYScroll {
+.overflowYAuto {
     overflow-y: auto;
 }
 
